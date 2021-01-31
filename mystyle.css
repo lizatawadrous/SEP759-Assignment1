@@ -1,0 +1,99 @@
+.cursive {
+    font-family: cursive;
+    color: steelblue;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.title {
+    font-family:'monospace';
+    color: chocolate;
+    font-size: 12;
+    font-weight: 400;
+
+}
+.subtitle {
+font-family: 'Gill Sans';
+color: darkolivegreen;
+font-size: 14px;
+font-weight:lighter;
+}
+
+
+.body {
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 14;
+    font-weight: 600;
+}
+
+.FirstLayout {
+    font-family: 'Gill Sans';
+    font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            
+        
+            
+        }
+
+.SecondLayout {
+    font-family: 'Gill Sans';
+    font-size: 12px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-items:center;
+               
+}  
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.Thirdlayout {
+    font-family: 'Gill Sans';
+    font-size: 12px;
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-start;
+            align-items:center;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.myImage {
+   transition: 0.5s;
+    opacity: 0.5; 
+}
+
+.myImage:hover {
+    transition: 0.5s;
+    opacity: 1;
+  
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        background-color: tan;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .SecondLayout{
+        flex-direction: column;
+
+    }
+    
+}
